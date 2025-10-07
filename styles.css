@@ -47,3 +47,23 @@ main {
   background: #10b82f;
   text-align: center;
 }
+
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+main {
+  display: flex;
+  flex: 1;
+  background-color: rgb(210, 234, 254);
+}
+footer {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  padding: 20px;
+  border-top: 2px solid black;
+}
